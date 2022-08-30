@@ -85,8 +85,8 @@
   .nav_close {
     position: absolute;
     right: 1.3rem;
-    bottom: 0.5rem;
-    font-size: 1.5rem;
+    bottom: 0.9rem;
+    font-size: 1.2rem;
     cursor: pointer;
     color: var(--title-color);
   }
@@ -115,4 +115,12 @@
   .nav_list {
     column-gap: 0;
   }
+}
+
+.close-link {
+  padding-top: 5rem;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
 }
