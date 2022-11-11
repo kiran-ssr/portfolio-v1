@@ -19,6 +19,14 @@ const Frontend = () => {
           <div className="skills_data">
             <HiOutlineBadgeCheck className="badge_icon" />
             <div>
+              <h3 className="skills_name">SpringBoot</h3>
+              <span className="skills_level">Basic</span>
+            </div>
+          </div>
+
+          <div className="skills_data">
+            <HiOutlineBadgeCheck className="badge_icon" />
+            <div>
               <h3 className="skills_name">CSS</h3>
               <span className="skills_level">Basic</span>
             </div>
@@ -28,6 +36,32 @@ const Frontend = () => {
             <HiOutlineBadgeCheck className="badge_icon" />
             <div>
               <h3 className="skills_name">JavaScript</h3>
+              <span className="skills_level">Basic</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="skills_group">
+          <div className="skills_data">
+            <HiOutlineBadgeCheck className="badge_icon" />
+            <div>
+              <h3 className="skills_name">React</h3>
+              <span className="skills_level">Basic</span>
+            </div>
+          </div>
+
+          <div className="skills_data">
+            <HiOutlineBadgeCheck className="badge_icon" />
+            <div>
+              <h3 className="skills_name">MongoDB</h3>
+              <span className="skills_level">Basic</span>
+            </div>
+          </div>
+
+          <div className="skills_data">
+            <HiOutlineBadgeCheck className="badge_icon" />
+            <div>
+              <h3 className="skills_name">php</h3>
               <span className="skills_level">Basic</span>
             </div>
           </div>

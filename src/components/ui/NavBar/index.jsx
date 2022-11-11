@@ -25,24 +25,10 @@ const NavBar = () => {
 
         <div className={toggle ? "nav_menu show-menu" : "nav_menu"}>
           <ul className="nav_list grid">
-            <li className="nav_item">
+            <li className="nav_item" onClick={() => setToggle(!toggle)}>
               <a href="#home" className="nav_link active-link">
                 {iconBreakPoint && <AiOutlineHome fontSize={"18px"} />}
                 Home
-              </a>
-            </li>
-
-            <li className="nav_item">
-              <a href="#about" className="nav_link">
-                {iconBreakPoint && <AiOutlineUser fontSize={"18px"} />}
-                About
-              </a>
-            </li>
-
-            <li className="nav_item">
-              <a href="#qualification" className="nav_link">
-                {iconBreakPoint && <FiAward fontSize={"18px"} />}
-                Qualification
               </a>
             </li>
 
